@@ -25,3 +25,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+#Section I added to hide secrets
+#Ignore master file
+/config/master.key
+#Ignore storage
+/config/storage.yml
