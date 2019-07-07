@@ -1,26 +1,23 @@
 # Devcamb Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+>This is ruby on Rails 5 applicaltion that allows users to create their own portfolios.
 
-More content buddy!
+### Features 
 
-Things you may want to cover:
+-Real time chat engine for comments
+-Blog
+-Portfolio
+-Drag and drop interface
 
-* Ruby version
+### Code Example
 
-* System dependencies
+```Ruby
+def my_great_method
+	puts "here it is"
+end
+```
 
-* Configuration
+```javascript
+alert("Hi There"); 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
