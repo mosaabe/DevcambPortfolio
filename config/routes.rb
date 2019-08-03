@@ -1,5 +1,4 @@
 Rails.application.routes.draw do  
-  resources :blogs
   resources :portfolios, except: [:show]
 
 # to: for controller action, as: to specify prefix to to be used for path and url
@@ -9,6 +8,13 @@ Rails.application.routes.draw do
   
   get 'about', to: 'pages#about'
   get 'contactus', to: 'pages#contact'
+
+
+  resources :blogs do
+  	member do
+  		get :toggle_status
+  	end
+  end
 
   root to: 'pages#home' #get 'pages/home' localhost will ditect to home page
 
